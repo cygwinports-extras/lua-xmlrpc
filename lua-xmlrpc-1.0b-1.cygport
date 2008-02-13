@@ -1,0 +1,15 @@
+inherit lua
+
+DESCRIPTION="Lua XML-RPC library"
+HOMEPAGE="http://www.keplerproject.org/luaxmlrpc/"
+SRC_URI="http://luaforge.net/frs/download.php/276/${PN/-}-${PV}.tar.gz"
+SRC_DIR="${PN/-}-${PV}"
+
+src_compile() { :; }
+
+src_install() {
+	cd ${S}
+	cyginstall LUA_DIR=${D}${LUA_SCRIPTDIR}
+}
+
+HTMLDOCS="*.html *.png"

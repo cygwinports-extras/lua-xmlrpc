@@ -1,0 +1,61 @@
+lua-xmlrpc
+------------------------------------------
+LuaXMLRPC is a library to make remote procedure calls using XML-RPC. It 
+also offers facilities to develop server-side software.
+
+LuaXMLRPC provides a simple API and an abstraction layer over XML 
+avoiding manipulation of string representation of data structures. It 
+also offers ways to express everything when needed.
+
+Runtime requirements:
+  lua-5.1.3-1
+  lua-cgi-5.1.1-1
+  lua-expat-1.1-1
+  lua-socket-2.0.2-1
+
+Build requirements:
+  cygport-0.3.8-1
+  make-3.81-1
+
+Canonical website:
+  http://www.keplerproject.org/luaxmlrpc/
+
+Canonical download:
+  http://luaforge.net/projects/luaxmlrpc/
+
+-------------------------------------------
+
+Build instructions:
+  unpack lua-xmlrpc-1.0b-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./lua-xmlrpc-1.0b-X.cygport all
+
+This will create:
+  /usr/src/lua-xmlrpc-1.0b-X-src.tar.bz2
+  /usr/src/lua-xmlrpc-1.0b-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/share/doc/lua-xmlrpc-1.0b/README
+  /usr/share/doc/lua-xmlrpc-1.0b/html/index.html
+  /usr/share/doc/lua-xmlrpc-1.0b/html/license.html
+  /usr/share/doc/lua-xmlrpc-1.0b/html/luaxmlrpc.png
+  /usr/share/doc/lua-xmlrpc-1.0b/html/manual.html
+  /usr/share/lua/5.1/xmlrpc/cgi.lua
+  /usr/share/lua/5.1/xmlrpc/http.lua
+  /usr/share/lua/5.1/xmlrpc/xmlrpc.lua
+
+------------------
+
+Port Notes:
+
+----- version 1.0b-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

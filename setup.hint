@@ -1,0 +1,9 @@
+category: Lua
+requires: lua lua-cgi lua-expat lua-socket
+sdesc: "Lua XML-RPC library"
+ldesc: "LuaXMLRPC is a library to make remote procedure calls using XML-RPC. 
+It also offers facilities to develop server-side software.
+
+LuaXMLRPC provides a simple API and an abstraction layer over XML
+avoiding manipulation of string representation of data structures. It
+also offers ways to express everything when needed."
